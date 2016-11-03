@@ -1,0 +1,12 @@
+push 3
+push 4
+add
+push 8
+add
+push -15
+push 5
+add
+jumpz -1
+push 13
+multiply
+dump

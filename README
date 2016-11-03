@@ -1,0 +1,42 @@
+/*
+Chao Lin
+linc0@sewanee.edu
+Project 3
+CS 257
+*/
+
+---------------------------------------------------------------
+
+**How to compile**
+(There are three classes: ArrayStack, simple0, fileReader)
+For ArrayStack.java ---> java ArrayStack.java
+For simple0.java ---> javac simple0.java
+For fileReader.java ---> javac fileReader.java
+
+---------------------------------------------------------------
+**How to run** 
+(Note: only have to run fileReader, and use command-line to pass file name to args[0])
+
+Type: java fileReader ________ 
+**In blank space, type the text file name**
+
+fileReader will read three different text files: 
+	1. overflowcrash.txt
+	2. underflowcrash.txt
+	3. carrytest.txt
+
+---------------------------------------------------------------
+
+**Results of each text files**
+1. overflowcrash.txt
+Result: "System crashed, stack is overflowed" will be printed continuously 
+
+2. underflowcrash.txt
+Result: "System crashed, stack is underflowed" will be printed
+
+3. carrytest.txt
+Result: Current contents are: 15 , -130	
+	Processor Flags ---> Zero:false  Carry:true  Negate:true  Crash:false
+
+---------------------------------------------------------------
+NOTE: A toString() method was added to the ArrayStack and the dump method in simple0 uses it

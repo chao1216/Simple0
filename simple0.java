@@ -342,5 +342,4 @@ public class simple0{
 		return result;
 	}
 
-
 }
